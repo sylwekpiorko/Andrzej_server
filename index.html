@@ -2,7 +2,24 @@
 <html>
 	<head>
 	<meta charset="utf-8" />
-	<title></title>
+	<link rel="apple-touch-icon" sizes="57x57" href="/my_icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/my_icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/my_icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/my_icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/my_icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/my_icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/my_icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/my_icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/my_icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/my_icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/my_icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/my_icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/my_icons/favicon-16x16.png">
+	<link rel="manifest" href="/my_icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/my_icons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>Nasz Seedbox</title>
 	<link rel="stylesheet" type="text/css" href="">
 	<style type="text/css">
 
@@ -15,72 +32,122 @@
 			left: 0;
 			right: 0;
 
-			width: 380px;
 			height: 800px;
 			background-color: yellow;
-			
+			border-radius: 10px;
 			position: relative;
-			display: inline-block;*/
+			display: inline-block;
 
-			background-color: #SkyBlue;
+			background:red;*/
+			width: 750px;
 			position:absolute;
-			border-radius: 50px;
 			color:#fff;
 			top:50%;
 			left:50%;
 			padding:15px;
-			-ms-transform: translateX(-50%) translateY(-50%);
-			-webkit-transform: translate(-50%,-50%);
-			transform: translate(-50%,-50%);
+			-ms-transform: translateX(-50%) translateY(-53%);
+			-webkit-transform: translate(-50%,-53%);
+			transform: translate(-50%,-53%);
 		}
 		.button{
-			width: 380px;
+			/*width: 380px;*/
 			height: 128px;
-		}
-		.button_temp{
-			width: 380px;
-			height: 28px;
-			background-color: #eee;
 		}
 		.button:hover{
 			opacity: 0.3;
 			filter: alpha(opacity=30);
 		}
-		img{
+		.img{
 			display: block;
 			margin: 0 auto;
 			border-radius: 20px;
+		}
+		.horizontal{
+			width: 749px;
+			overflow: hidden;
+			margin-top: 30px;
+		}
+		.left{
+			float: left;
+		}
+		.right{
+			float: right;
+		}
+		.center{
+			float: left;
+			margin-left: 100px;
 		}
 	</style>	
 	</head>
 	
 	<body>
-	<div id="container">		
-		<div class="button"><a href="http://37.48.86.86:8080/gui" target="_blank">
-			<img src="utorrent_128.png">
-		</a></div>
-		<div class="button"><a href="http://37.48.86.86:5050" target="_blank">
-			<img src="couch_potato_128.png">
+		<div id="container">
+			<!--
+			<div class="button"><a href="http://37.48.86.86:8080/gui" target="_blank">
+				<img src="utorrent_128.png">
+			</a></div>
+			-->
+			<div class="horizontal">
+				<div class="button left">
+					<a href="https://andrzej-seedbox.freeddns.org/cp" target="_blank">
+					<img src="couch_potato_128.png">
+				</div>
+				<div class="button center">
+					<a href="https://andrzej-seedbox.freeddns.org/sick" target="_blank">
+					<img src="sickrage_128.png">
+				</div>
+				<div class="button right">
+					<a href="https://andrzej-seedbox.freeddns.org/hp" target="_blank">
+					<img src="headphones.png">
+				</div>			
+			</div>
+			<div class="horizontal">
+				<div class="button left">
+					<a href="https://pms.andrzej-seedbox.freeddns.org" target="_blank">
+					<img class="img" src="plex_128.png">
+				</div>
+				<div class="button center">
+					<a href="https://andrzej-seedbox.freeddns.org/radarr" target="_blank">
+					<img class="img" src="radarr_128.png">
+				</div>
+                                <div class="button right">
+                                        <a href="https://andrzej-seedbox.freeddns.org/sonarr" target="_blank">
+                                        <img class="img" src="sonarrnew_128.png">
+                                </div>
+
+			</div>
+			<div class="horizontal">
+				<div class="button left">
+					<a href="https://andrzej-seedbox.freeddns.org/nagios" target="_blank">
+					<img class="img" src="nagiosnew_128.png">
+				</div>
+				<div class="button center">
+					<a href="https://andrzej-seedbox.freeddns.org/deluge" target="_blank">
+					<img class="img" src="delugelogo.png">
+				</div>
+                                <div class="button right">
+                                        <a href="https://andrzej-seedbox.freeddns.org/tr" target="_blank">
+                                        <img class="img" src="transmission_128.png">
+                                </div>
+
+			</div>
+			<div class="horizontal">
+				<div class="button left">
+					<a href="https://andrzej-seedbox.freeddns.org/ether" target="_blank">
+					<img class="img" src="etherpad_128.png">
+                                </div>
+				<!--
+				<div class="button center">
+					<a href="https://andrzej-seedbox.freeddns.org/gate" target="_blank">
+					<img class="img" src="gateone_128.png">
+                                </div>
+				-->
+				<div class="button center">
+					<a href="https://andrzej-seedbox.freeddns.org/jackett" target="_blank">
+					<img class="img" src="jackett_128.png">
+                                </div>
+			</div>
 		</div>
-		<div class="button"><a href="http://localhost:32400/web" target="_blank">
-			<img src="plex_128.png">
-		</div>
-		<!--
-		<div class="button"><a href="http://37.48.86.86:8989" target="_blank">
-			<img src="sonarr_128.png">
-		</div>
-		-->
-		<div class="button"><a href="http://37.48.86.86:8081" target="_blank">
-			<img src="sickrage_128.png">
-		</div>
-		<div class="button"><a href="http://37.48.86.86:9091" target="_blank">
-			<img src="transmission_128.png">
-		</div>
-		<!--
-		<div class="button_temp"><a href="syl/s_temp.php" target="_blank"></a>		
-		</div>
-		-->
-	</div>
 	</body>
 
 </html>
